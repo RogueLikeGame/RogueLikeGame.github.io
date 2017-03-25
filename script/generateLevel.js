@@ -9,6 +9,7 @@ function randomNumber() {
 }
 
 function startDraw(){
+    if(theWallToHide < 48 ){
         rangeOfRandomNumber = rangeOfRandomNumber - rangeOfRandomNumber;
         rangeOfRandomNumber = rangeOfRandomNumber + 4;
         randomNumber();
@@ -31,6 +32,10 @@ function startDraw(){
             theWallThatWeAreOn = theWallThatWeAreOn +1;
             startDraw();
         }
+    }
+    else{
+        return;   
+    }
 }
 
 function hideTheWall(){
