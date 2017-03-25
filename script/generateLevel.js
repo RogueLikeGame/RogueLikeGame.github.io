@@ -2,7 +2,7 @@ var rangeOfRandomNumber = 0;
 var justFoundRandomNumber = 0;
 var theWallThatWeAreOn = 11;
 var GapNumber = 15;
-var theWallToHide;
+var theWallToHide = "WALL1";
 function randomNumber() {
     justFoundRandomNumber = justFoundRandomNumber - justFoundRandomNumber;
     justFoundRandomNumber = justFoundRandomNumber + Math.floor((Math.random() * rangeOfRandomNumber) + 1);
@@ -26,6 +26,8 @@ function startDraw(){
             }
         }
         else if (justFoundRandomNumber != 4) {
+            delete theWallToHide;
+            var theWallToHide;
             theWallToHide = "WALL" + theWallThatWeAreOn;
             //alert(theWallToHide);
             hideTheWall();
@@ -33,8 +35,10 @@ function startDraw(){
             startDraw();
         }
     }
-    else if(theWallToHide >= 48){
-       alert("Done");
+    else{
+        return;
+        var done = "done";
+        console.log(done);
     }
 }
 
