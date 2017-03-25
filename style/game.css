@@ -1,3 +1,198 @@
 div.player{
     position: absolute;
+    top: 75px;
+    left: 75px;
+}
+body{
+    background-color: black;
+}
+img{
+    position: absolute;
+}
+div.MasterWall{
+    visibility: visible;
+}
+.WALL2{
+    left: 75px;
+}
+.WALL3{
+    left: 150px;
+}
+.wall4{
+    left: 225px;
+}
+.WALL5{
+    left: 300px;
+}
+.WALL6{
+    left: 375px;
+}
+.WALL7{
+    left: 450px;
+}
+.WALL8{
+    left: 525px;
+}
+/* End Of The First Row*/
+
+.WALL9{
+    top: 75px;
+}
+.WALL10{
+    top: 75px;
+    left: 75px;
+}
+.WALL11{
+    top: 75px;
+    left: 150px;
+}
+.WALL12{
+    top: 75px;
+    left: 225px;
+}
+.WALL13{
+    top: 75px;
+    left: 300px;
+}
+.WALL14{
+    top: 75px;
+    left: 375px;
+}
+.WALL15{
+    top: 75px;
+    left: 450px;
+}
+.WALL16{
+    top: 75px;
+    left: 525px;
+}
+/*End of secdon row*/
+.WALL17{
+    top: 150px;
+}
+.WALL18{
+    top: 150px;
+    left: 75px;
+}
+.WALL19{
+    top: 150px;
+    left: 150px;
+}
+.WALL20{
+    top: 150px;
+    left: 225px;
+}
+.WALL21{
+    top: 150px;
+    left: 300px;
+}
+.WALL22{
+    top: 150px;
+    left: 375px;
+}
+.WALL23{
+    top: 150px;
+    left: 450px;
+}
+.WALL24{
+    top: 150px;
+    left: 525px;
+}
+/*End Of section 3*/
+.WALL25{
+    top: 225px;
+}
+.WALL26{
+    top: 225px;
+    left: 75px;
+}
+.WALL27{
+    top: 225px;
+    left: 150px;
+}
+.WALL28{
+    top: 225px;
+    left: 225px;
+}
+.WALL29{
+    top: 225px;
+    left: 300px;
+}
+.WALL30{
+    top: 225px;
+    left: 375px;
+}
+.WALL31{
+    top: 225px;
+    left: 450px;
+}
+.WALL32{
+    top: 225px;
+    left: 525px;
+}
+/*End of section 4*/
+
+.WALL33{
+    top: 300px;
+}
+.WALL34{
+    top: 300px;
+    left: 75px;
+}
+.WALL35{
+    top: 300px;
+    left: 150px;
+}
+.WALL36{
+    top: 300px;
+    left: 225px;
+}
+.WALL37{
+    top: 300px;
+    left: 300px;
+}
+.WALL38{
+    top: 300px;
+    left: 375px;
+}
+.WALL39{
+    top: 300px;
+    left: 450px;
+}
+.WALL40{
+    top: 300px;
+    left: 525px;
+}
+/*End of section 5*/
+
+.WALL41{
+    top: 375px;
+}
+.WALL42{
+    top: 375px;
+    left: 75px;
+}
+.WALL43{
+    top: 375px;
+    left: 150px;
+}
+.WALL44{
+    top: 375px;
+    left: 225px;
+}
+.WALL45{
+    top: 375px;
+    left: 300px;
+}
+.WALL46{
+    top: 375px;
+    left: 375px;
+}
+.WALL47{
+    top: 375px;
+    left: 450px;
+}
+.WALL48{
+    top: 375px;
+    left: 525px;
 }
