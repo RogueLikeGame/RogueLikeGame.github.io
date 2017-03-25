@@ -27,14 +27,15 @@ function startDraw(){
         }
         else if (justFoundRandomNumber != 4) {
             theWallToHide = "WALL" + theWallThatWeAreOn;
-            alert(theWallToHide);
+            //alert(theWallToHide);
             hideTheWall();
             theWallThatWeAreOn = theWallThatWeAreOn +1;
             startDraw();
         }
     }
     else{
-        return;   
+        return;
+        console.log("Done");
     }
 }
 
