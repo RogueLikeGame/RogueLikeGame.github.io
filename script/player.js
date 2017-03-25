@@ -1,6 +1,6 @@
 var moveMentLeft = 0;
 var moveMentTop = 0;
-
+var moveMentDestaince = 75;
 //^ creating vars
 //checking for inputs
 window.addEventListener("keydown", function (event) {
@@ -19,19 +19,19 @@ window.addEventListener("keydown", function (event) {
 function movePlayer() {
     var keyPressed = localStorage.getItem("keyPressed");
     if (keyPressed == "w") {
-        moveMentTop = moveMentTop - 100;
+        moveMentTop = moveMentTop - moveMentDestaince;
         document.getElementById("player").style.top = moveMentTop;
     }
     if (keyPressed == "d") {
-        moveMentLeft = moveMentLeft + 100;
+        moveMentLeft = moveMentLeft + moveMentDestaince;
         document.getElementById("player").style.left = moveMentLeft;
     }
     if (keyPressed == "s") {
-        moveMentTop = moveMentTop + 100;
+        moveMentTop = moveMentTop + moveMentDestaince;
         document.getElementById("player").style.top = moveMentTop;
     }
     if (keyPressed == "a") {
-        moveMentLeft = moveMentLeft - 100;
+        moveMentLeft = moveMentLeft - moveMentDestaince;
         document.getElementById("player").style.left = moveMentLeft;
     }
 }
