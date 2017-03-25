@@ -33,9 +33,8 @@ function startDraw(){
             startDraw();
         }
     }
-    else{
-        return;
-        console.log("Done");
+    else if(theWallToHide >= 48){
+       alert("Done");
     }
 }
 
