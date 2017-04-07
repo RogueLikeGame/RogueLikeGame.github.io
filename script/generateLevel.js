@@ -9,7 +9,7 @@ function randomNumber() {
 }
 
 function startDraw(){
-    if(theWallThatWeAreOn < 48 ){
+    if(theWallThatWeAreOn =< 40 ){
         rangeOfRandomNumber = rangeOfRandomNumber - rangeOfRandomNumber;
         rangeOfRandomNumber = rangeOfRandomNumber + 4;
         randomNumber();
