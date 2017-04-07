@@ -18,25 +18,25 @@ window.addEventListener("keydown", function (event) {
 
 function movePlayer() {
     var keyPressed = localStorage.getItem("keyPressed");
+    console.log(keyPressed);
     if (keyPressed == "w") {
         moveMentTop = moveMentTop - moveMentDestaince;
         document.getElementById("player").style.top = moveMentTop;
+        console.log("Moved Forward");
     }
-    if (keyPressed == "d") {
+    else if (keyPressed == "d") {
         moveMentLeft = moveMentLeft + moveMentDestaince;
         document.getElementById("player").style.left = moveMentLeft;
+        console.log("Moved Right");
     }
-    if (keyPressed == "s") {
+    else if (keyPressed == "s") {
         moveMentTop = moveMentTop + moveMentDestaince;
         document.getElementById("player").style.top = moveMentTop;
+        console.log("Moved Backwards");
     }
-    if (keyPressed == "a") {
+    else if (keyPressed == "a") {
         moveMentLeft = moveMentLeft - moveMentDestaince;
         document.getElementById("player").style.left = moveMentLeft;
+        console.log("Moved Left")
     }
-}
-
-function deletePlayer(id) {
-    let div = document.getElementById(id);
-    div.style.display = div.style.display == "none" ? "block" : "none";
 }
